@@ -29,8 +29,6 @@ body {
 }
 
 .hero-text {
-    display: flex;
-    flex-direction: column;
     flex: 1;
 }
 
@@ -55,7 +53,6 @@ button {
 
 #hero-image {
     height: 242px;
-    flex-grow: 0;
 }
 
 .footer {

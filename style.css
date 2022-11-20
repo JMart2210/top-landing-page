@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .header {
@@ -27,21 +28,17 @@ body {
     display: flex;
     gap: 50px;
 }
-
 .hero-text {
     flex: 1;
 }
-
 .hero-title {
     margin: 0;
 }
-
 .hero-info {
     font-size: 18px;
     font-weight: 400;
     color: #e5e7eb;
 }
-
 button {
     color: #e5e7eb;
     background-color: #3882f6;
@@ -50,11 +47,35 @@ button {
     padding: 8px 20px;
     width: 150px;
 }
-
 #hero-image {
     height: 242px;
 }
 
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 50px;
+    text-align: center;
+}
+.info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 120px;
+}
+.info-container {
+    width: 180px;
+    text-align: center;
+}
+.card {
+    width: 180px;
+    height: 180px;
+    border: 5px solid #3882f6;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
 .footer {
     display: flex;
     flex: 1;

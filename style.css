@@ -76,6 +76,26 @@ button {
     border-radius: 16px;
     margin-bottom: 10px;
 }
+
+.quotes {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    padding: 120px 220px;
+}
+.quote-text {
+    margin: 0;
+    text-align: justify;
+}
+.quote-author {
+    font-weight: bold;
+    font-size: 24px;
+    font-style: normal;
+    margin: 0;
+    text-align: end; 
+}
+
 .footer {
     display: flex;
     flex: 1;

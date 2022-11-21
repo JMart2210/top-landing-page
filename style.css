@@ -41,11 +41,13 @@ body {
 }
 button {
     color: #e5e7eb;
+    font-size: 16px;
+    font-weight: bold;
     background-color: #3882f6;
     border: none;
     border-radius: 4px;
     padding: 8px 20px;
-    width: 150px;
+    width: 120px;
 }
 #hero-image {
     height: 242px;
@@ -96,9 +98,40 @@ button {
     text-align: end; 
 }
 
-.footer {
+.call-to-action {
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    margin: 90px 120px;
     display: flex;
-    flex: 1;
+    padding: 30px 100px;
+    justify-content: space-between;
+}
+.cta-header {
+    color: #f9faf8;
+    font-size: 24px;
+    margin: 0px 0px 10px;
+}
+.cta-info {
+    font-size: 16px;
+    font-weight: 400;
+    color: #e5e7eb;
+    margin: 0;
+}
+.call-to-action>button{
+    border: 2px solid #f9faf8;
+    height: 37px;
+    align-self: center;
+}
+
+.footer {
+    height: 90px;
+    background: #1f2937;
+    color: #f9faf8;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 ul {

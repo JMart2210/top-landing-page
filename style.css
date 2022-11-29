@@ -48,7 +48,13 @@ button {
     border-radius: 4px;
     padding: 8px 20px;
     width: 120px;
+    cursor: pointer; /* makes button appear clickable */
 }
+/* show how button looks when cursor hovers over it */
+button:hover {
+    background-color: #2d6acc;
+}
+
 #hero-image {
     height: 242px;
 }

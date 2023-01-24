@@ -1,154 +1,155 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .header {
-    height: 72px;
-    background-color: #1f2937;
-    color: #f9faf8;
-    font-size: 24px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 120px;
+  height: 72px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 120px;
 }
 
 .hero {
-    background-color: #1f2937;
-    color: #f9faf8;
-    font-size: 48px;
-    font-weight: 900;
-    padding: 100px 120px;
-    display: flex;
-    gap: 50px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+  padding: 100px 120px;
+  display: flex;
+  gap: 50px;
 }
 .hero-text {
-    flex: 1;
+  flex: 1;
 }
 .hero-title {
-    margin: 0;
+  margin: 0;
 }
 .hero-info {
-    font-size: 18px;
-    font-weight: 400;
-    color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 400;
+  color: #e5e7eb;
 }
 button {
-    color: #e5e7eb;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: #3882f6;
-    border: none;
-    border-radius: 4px;
-    padding: 8px 20px;
-    width: 120px;
-    cursor: pointer; /* makes button appear clickable */
+  color: #e5e7eb;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 20px;
+  width: 120px;
+  cursor: pointer; /* makes button appear clickable */
 }
 /* show how button looks when cursor hovers over it */
 button:hover {
-    background-color: #2d6acc;
+  background-color: #2d6acc;
 }
 
 #hero-image {
-    height: 242px;
+  height: 242px;
 }
 
 .info-header {
-    font-size: 36px;
-    font-weight: 900;
-    margin: 50px;
-    text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  margin: 50px;
+  text-align: center;
 }
 .info-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px;
-    margin-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 120px;
 }
 .info-container {
-    width: 180px;
-    text-align: center;
+  width: 180px;
+  text-align: center;
 }
 .card {
-    width: 180px;
-    height: 180px;
-    border: 5px solid #3882f6;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-    border-radius: 16px;
-    margin-bottom: 10px;
+  width: 180px;
+  height: 180px;
+  border: 5px solid #3882f6;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  margin-bottom: 10px;
 }
 
 .quotes {
-    background-color: #e5e7eb;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 200;
-    padding: 120px 220px;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  padding: 120px 220px;
 }
 .quote-text {
-    margin: 0;
-    text-align: justify;
+  margin: 0;
+  text-align: justify;
 }
 .quote-author {
-    font-weight: bold;
-    font-size: 24px;
-    font-style: normal;
-    margin: 0;
-    text-align: end; 
+  font-weight: bold;
+  font-size: 24px;
+  font-style: normal;
+  margin: 0;
+  text-align: end;
 }
 
 .call-to-action {
-    background-color: #3882f6;
-    border-radius: 8px;
-    color: #f9faf8;
-    margin: 90px 120px;
-    display: flex;
-    padding: 30px 100px;
-    justify-content: space-between;
+  background-color: #3882f6;
+  border-radius: 8px;
+  color: #f9faf8;
+  margin: 90px 120px;
+  display: flex;
+  padding: 30px 100px;
+  justify-content: space-between;
 }
 .cta-header {
-    color: #f9faf8;
-    font-size: 24px;
-    margin: 0px 0px 10px;
+  color: #f9faf8;
+  font-size: 24px;
+  margin: 0px 0px 10px;
 }
 .cta-info {
-    font-size: 16px;
-    font-weight: 400;
-    color: #e5e7eb;
-    margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #e5e7eb;
+  margin: 0;
 }
-.call-to-action>button{
-    border: 2px solid #f9faf8;
-    align-self: center;
+.call-to-action > button {
+  border: 2px solid #f9faf8;
+  align-self: center;
 }
 
 .footer {
-    height: 90px;
-    background: #1f2937;
-    color: #f9faf8;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 90px;
+  background: #1f2937;
+  color: #f9faf8;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 16px
-  }
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
 
-  a {
-    color: #e5e7eb;
-    font-size: 18px;
-    text-decoration: none;
-  }
+a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
